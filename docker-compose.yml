@@ -28,7 +28,5 @@ services:
         container_name: sf4_php
         volumes:
           - .:/home/wwwroot/sf4
-        environment:
-          - dev
         depends_on:
           - mysql
